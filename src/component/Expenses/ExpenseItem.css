@@ -26,13 +26,37 @@
 }
 
 .expense-item__price {
+  display: flex;
   font-size: 1rem;
   font-weight: bold;
   color: white;
   background-color: #40005d;
-  border: 1px solid white;
+  border: 1px solid rgb(187, 186, 186);
   padding: 0.5rem;
   border-radius: 12px;
+  width: 120px;
+  align-items: center;
+  justify-content: center;
+  min-width: fit-content;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+button {
+  border-radius: 20px;
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid rgb(201, 201, 201);
+  background-color: rgb(39, 39, 39);
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(223, 223, 223);
+  color: rgb(34, 34, 34);
 }
 
 @media (min-width: 580px) {
