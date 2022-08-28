@@ -7,8 +7,8 @@ It allows you to add users and render their information on the screen.
 
 ## Overview
 
-![This is an image](./src/Capture1.PNG)
-![This is an image](./src/Capture2.PMG)
+- ![This is an image](./src/Capture1.PNG)
+- ![This is an image](./src/Capture2.PNG)
 
 
 ## Teck Stack
